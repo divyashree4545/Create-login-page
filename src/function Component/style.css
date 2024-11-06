@@ -1,0 +1,33 @@
+body{
+    font-family: arial,sans-serif;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #AAAAAA;
+}
+    
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.form-container{
+    background-color:#FFFFFF;
+    padding: 50px;
+    border-radius:8px;
+    box-shadow: 1px solid #AAAAAA;
+    width: 368px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   margin-top: 10px;
+   font-size: x-small;
+   margin-bottom: 20px;
+}
